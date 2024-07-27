@@ -1,0 +1,248 @@
+﻿@model IEnumerable<Product>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/Hitler/nazi.jpg" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="search-container">
+                    <form>
+                    <input value="@ViewData["search"]" id="search" name="search" type="text" placeholder="Search...">
+                    <button id="searchBtn">Search</button>
+                    </form>
+                <a asp-action="Add">
+                    <button id="addBtn">Add</button>
+                </a> 
+            </div>
+        </nav>
+    </header>
+
+    <main>
+            <div class="product-container">
+
+                @foreach (var list in Model)
+                {
+                    <div class="product-card">
+                        <img src="/Hitler/@list.ProductImageName" alt="Product 1">
+                        <div class="product-info">
+                            <h3>@list.ProductName</h3>
+                            <p class="category">@list.ProductCategory</p>
+                            <p class="description">@list.ProductBio</p>
+                            <p class="price">(@list.ProductPrice)$</p>
+                            <div class="button-group">
+                            <a asp-action="Details" asp-route-id="@list.Id">
+                                    <button class="edit">Details</button>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@list.Id">
+                                    <button class="delete">Delete</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+                <!-- Repeat .product-card for other products -->
+            </div>
+    </main>
+    <style>
+        /* General Styles */
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(135deg, #2F4454, #376E6F); /* Linear gradient background */
+            min-height: 100vh; /* Body-ni ekran hündürlüyü qədər artırır */
+            padding-bottom: 60px; /* Footer üçün boşluq */
+            position: relative; /* `::before` pseudoelement üçün */
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background: #1C3334;
+            color: white;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        #addBtn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+            #addBtn:hover {
+                background-color: #45a049;
+            }
+            .nav-links li a {
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+                .nav-links li a:hover {
+                    text-decoration: underline;
+                }
+
+        .search-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        #search {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        #searchBtn {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #ff7e5f;
+            color: white;
+            cursor: pointer;
+        }
+
+            #searchBtn:hover {
+                background-color: #feb47b;
+            }
+
+        main {
+            padding: 20px;
+            padding-bottom: 80px; /* Footer-in içəriyə daxil olmaması üçün boşluq */
+            margin-top: 60px; /* Naviqasiya ilə məzmun arasındakı məsafəni artırır */
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Space between cards */
+            justify-content: center; /* Center cards horizontally */
+        }
+
+        .product-card {
+            background: #b3b4bd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+            width: 300px; /* Fixed width for cards */
+        }
+
+            .product-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+
+            .product-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+
+        .product-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+            .product-info h3 {
+                margin: 10px 0;
+                font-size: 18px;
+            }
+
+            .product-info .category {
+                font-size: 14px;
+                color: #777;
+            }
+
+            .product-info .description {
+                font-size: 14px;
+                color: #555;
+                margin: 10px 0;
+            }
+
+            .product-info .price {
+                font-size: 16px;
+                font-weight: bold;
+                margin: 10px 0;
+            }
+
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+            .button-group button {
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            .button-group .edit {
+                background: #4CAF50;
+                color: white;
+            }
+
+            .button-group .delete {
+                background: #f44336;
+                color: white;
+            }
+
+            .button-group button:hover {
+                opacity: 0.9;
+            }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute; /* Absolute position */
+            bottom: 0; /* Align to bottom */
+            left: 0;
+            width: 100%;
+        }
+
+
+    </style>
+</body>
+</html>
