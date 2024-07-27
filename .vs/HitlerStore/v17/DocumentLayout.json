@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|c:\\users\\nihad\\source\\repos\\hitlerstore\\hitlerstore\\views\\main\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|solutionrelative:hitlerstore\\views\\main\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|c:\\users\\nihad\\source\\repos\\hitlerstore\\hitlerstore\\models\\productupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|solutionrelative:hitlerstore\\models\\productupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|c:\\users\\nihad\\source\\repos\\hitlerstore\\hitlerstore\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|solutionrelative:hitlerstore\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|c:\\users\\nihad\\source\\repos\\hitlerstore\\hitlerstore\\views\\main\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|solutionrelative:hitlerstore\\views\\main\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|c:\\users\\nihad\\source\\repos\\hitlerstore\\hitlerstore\\models\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|solutionrelative:hitlerstore\\models\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|c:\\users\\nihad\\source\\repos\\hitlerstore\\hitlerstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|solutionrelative:hitlerstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|c:\\users\\nihad\\source\\repos\\hitlerstore\\hitlerstore\\views\\main\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9850CFA6-3957-4459-BBB0-044BFFDBC1BA}|HitlerStore\\HitlerStore.csproj|solutionrelative:hitlerstore\\views\\main\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Views\\Main\\Details.cshtml",
+              "RelativeDocumentMoniker": "HitlerStore\\Views\\Main\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Views\\Main\\Details.cshtml",
+              "RelativeToolTip": "HitlerStore\\Views\\Main\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T14:47:11.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Models\\ProductUpdate.cs",
+              "RelativeDocumentMoniker": "HitlerStore\\Models\\ProductUpdate.cs",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Models\\ProductUpdate.cs",
+              "RelativeToolTip": "HitlerStore\\Models\\ProductUpdate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T14:03:40.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Views\\Main\\Add.cshtml",
+              "RelativeDocumentMoniker": "HitlerStore\\Views\\Main\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Views\\Main\\Add.cshtml",
+              "RelativeToolTip": "HitlerStore\\Views\\Main\\Add.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T13:52:09.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "HitlerStore\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Models\\Product.cs",
+              "RelativeToolTip": "HitlerStore\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T11:54:51.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Models\\ProductDbContext.cs",
+              "RelativeDocumentMoniker": "HitlerStore\\Models\\ProductDbContext.cs",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Models\\ProductDbContext.cs",
+              "RelativeToolTip": "HitlerStore\\Models\\ProductDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T11:59:05.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Views\\Main\\HomePage.cshtml",
+              "RelativeDocumentMoniker": "HitlerStore\\Views\\Main\\HomePage.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Views\\Main\\HomePage.cshtml",
+              "RelativeToolTip": "HitlerStore\\Views\\Main\\HomePage.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T11:41:41.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "HitlerStore\\Controllers\\MainController.cs",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HitlerStore\\HitlerStore\\Controllers\\MainController.cs",
+              "RelativeToolTip": "HitlerStore\\Controllers\\MainController.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAIgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T11:40:54.7Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
